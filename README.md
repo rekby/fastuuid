@@ -1,6 +1,6 @@
 [![PkgGoDev](https://pkg.go.dev/badge/github.com/rekby/fastuuid)](https://pkg.go.dev/github.com/rekby/fastuuid)
 [![Go Report Card](https://goreportcard.com/badge/github.com/rekby/fastuuid)](https://goreportcard.com/report/github.com/rekby/fastuuid)
-[![codecov](https://codecov.io/gh/rekby/fastuuid/branch/master/graph/badge.svg?precision=2)](https://app.codecov.io/gh/rekby/fastuuid)
+[![codecov](https://codecov.io/github/rekby/fastuuid/branch/main/graph/badge.svg?token=AIGUP7QYV2)](https://codecov.io/github/rekby/fastuuid)
 
 Fast uuid library, now implemented only UUIDv4 (crypto-random) generators.
 It generate UUID to string about 50-100ns with one allocation and good paralellism by cpu.
