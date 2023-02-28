@@ -30,9 +30,5 @@ jobs:
           go test -v -race -count 10 -cover ./... -coverprofile coverage.out -coverpkg ./...
           go tool cover -func coverage.out -o coverage.out  # Replaces coverage.out with the analysis of coverage.out
 
-      - name: Go Coverage Badge
-        uses: tj-actions/coverage-badge-go@v1
-        if: ${{ runner.os == 'Linux' && matrix.go == '1.20' }} # Runs this on only one of the ci builds.
-        with:
-          green: 80
-          filename: coverage.out
+      - name: Upload coverage reports to Codecov
+        uses: codecov/codecov-action@v3
