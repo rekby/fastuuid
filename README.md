@@ -53,3 +53,4 @@ BenchmarkJakehl/multi-thread                                          1963675   
 BenchmarkRwxrob/one-thread                                            1620858               740.5 ns/op           184 B/op          7 allocs/op
 BenchmarkRwxrob/multi-thread                                          1870315               644.6 ns/op           182 B/op          6 allocs/op
 ```
+
