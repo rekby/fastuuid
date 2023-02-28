@@ -1,5 +1,3 @@
-github.com/agext/uuid v1.1.0 h1:zrfmDqBGnwdHJj2/5uRoEsh5eHEzqzCKii+y86TrA5o=
-github.com/agext/uuid v1.1.0/go.mod h1:S35kGCagARSdmRVLoWmwmevvhFsiZkmtEqdw4hcDePs=
 github.com/davecgh/go-spew v1.1.1 h1:vj9j/u1bqnvCEfJOwUhtlOARqs3+rkHYY13jYWTU97c=
 github.com/gofrs/uuid v4.4.0+incompatible h1:3qXRTX8/NbyulANqlc0lchS1gqAVxRgsuW1YrTJupqA=
 github.com/gofrs/uuid v4.4.0+incompatible/go.mod h1:b2aQJv3Z4Fp6yNu3cdSllBxTCLRxnplIgP/c0N/04lM=
