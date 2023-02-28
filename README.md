@@ -1,5 +1,11 @@
 Fast uuid library, now implemented only UUIDv4 (random) generators.
 
+Command for install:
+
+```bash
+go get github.com/rekby/fastuuid
+```
+
 Example:
 
 ```golang
