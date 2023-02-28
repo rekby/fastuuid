@@ -10,6 +10,7 @@ package ibufio
 import (
 	"bytes"
 	"errors"
+	"github.com/rekby/fastuuid/internal/ibytes"
 	"io"
 	"strings"
 	"unicode/utf8"
@@ -460,7 +461,7 @@ func (b *Reader) collectFragments(delim byte) (fullBuffers [][]byte, finalFragme
 		}
 
 		// Make a copy of the buffer.
-		buf := bytes.Clone(frag)
+		buf := ibytes.Clone(frag)
 		fullBuffers = append(fullBuffers, buf)
 		totalLen += len(buf)
 	}
