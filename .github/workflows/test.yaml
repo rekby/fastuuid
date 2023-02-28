@@ -31,10 +31,7 @@ jobs:
           go tool cover -func coverage.out -o coverage.out  # Replaces coverage.out with the analysis of coverage.out
 
       - name: Benchmarks
-        run: |
-          cd benchmarks
-          go test -test.bench=. -v
-          cd ..
+        run: "(cd benchmarks; go test -test.bench=. -v )"
 
       - name: Go Coverage Badge
         uses: tj-actions/coverage-badge-go@v1
